@@ -87,13 +87,16 @@ console.count(2*2-4+9/3);
 
 //, countReset: 
 //+ Reinicia el valor del count.
-console.count();
-console.count();
-console.count();
-console.count();
 
-console.countReset();
+//$ Ejemplo 1:
+// console.count();
+// console.count();
+// console.count();
+// console.count();
 
+// console.countReset();
+
+//$ Ejemplo 2:
 console.count("contador");
 console.count("contador");
 console.count("contador");
@@ -185,3 +188,5 @@ console.timeLog("Tempo 2");
 console.timeEnd("Tempo 1");
 console.timeEnd("Tempo 2");
  */
+
+
