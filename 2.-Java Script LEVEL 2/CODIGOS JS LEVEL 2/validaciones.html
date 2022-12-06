@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon" href="#">
+    <title>Validaciones con JavaScript</title>    
+</head>
+<body>    
+
+
+  <!--. FORMULARIO VALIDADO DESDE JavaScript: -->
+
+<!-- <form id="formulario">
+  <input id="input" type="text">
+  <button type="submit">SEND</button>
+</form> -->
+
+<!--. FormData -->
+<!-- <form id="formulario">
+  <input name="nombre" type="text">
+  <input name="email" type="email">
+  <button type="submit">SEND</button>
+</form>  -->
+
+
+
+<!--. MAS EJEMPLOS DE VALIDACION EN FORMULARIOS -->
+
+<!--$ FORMULARIO SIMPLE: -->
+
+<!-- <h1>Formulario:</h1>    
+<form id="formulario">
+    <input
+        name="userName"
+        placeholder="Ingrese su nombre"
+        type="text"
+    />
+    <input
+        name="userEmail"
+        placeholder="Ingrese su correo"
+        type="email"
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+<!--$ FORMULARIO CON AUTOCOMPLETADO: -->
+
+<!-- <h1>Formulario:</h1>    
+<form id="formulario">
+    <input
+        name="userName"
+        placeholder="Ingrese su nombre"
+        type="text"
+        autocomplete="on"
+    />
+    <input
+        name="userEmail"
+        placeholder="Ingrese su correo"
+        type="email"
+        autocomplete="on"
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+
+<!--$ FORMULARIO CON REQUIRE: -->
+<!-- <h1>Formulario:</h1>    
+<form id="formulario">
+    <input
+        name="userName"
+        placeholder="Ingrese su nombre"
+        type="text"
+        required
+    />
+    <input
+        name="userEmail"
+        placeholder="Ingrese su correo"
+        type="email"
+        required
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+<!--$ FORMULARIO CON MIN Y MAX LENGTH: -->
+<!-- <h1>Formulario:</h1>    
+<form id="formulario">
+    <input
+        name="userName"
+        placeholder="Ingrese su nombre"
+        type="text"
+        required
+        minlength="4"
+        maxlength="10"
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+<!--$ FORMULARIO CON MIN Y MAX: -->
+<!-- <form id="formulario">
+    <input
+        name="userName"
+        placeholder="Ingrese su nombre"
+        type="number"
+        min="4"
+        max="15"
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+<!--$ FORMULARIO CON TITLE: -->
+
+<!-- <form id="formulario">
+    <input              
+        type="text"
+        title="Campo tipo texto"                
+    />    
+</form>     -->
+
+<!--$ FORMULARIO CON PATTERN: -->   
+<!-- <form id="formulario">
+    <input        
+        placeholder="Ingrese su nombre"                
+        type="text"
+        required
+        pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+        title="Solo letras por favor"
+    />
+    <button type="submit">Enviar</button>
+</form>     -->
+
+<script src="validaciones.js"></script>
+</body>
+</html>
