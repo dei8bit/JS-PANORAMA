@@ -1,5 +1,3 @@
-// ESTO DEBERIA DE ORGANIZARSE ACORDE AL WORD
-
 /*
 //# OBJETOS:
 
@@ -319,6 +317,90 @@ const sumas = {
 console.log(sumas.sumaDos(2,3));
 console.log(sumas.sumaTres(3,6,9));
 
+//. Object.assign:
+//+ Permite copiar  las propiedades enumerables de uno o más objetos fuente a un objeto destino. Devuelve el objeto destino.
+
+// $ Ejemplo 1:
+
+// const objetivo = {};
+// const fuente = { 1: "a", 2: "b" };
+
+// console.log("ANTES");
+// console.log(objetivo);
+// console.log(fuente);
+
+// Object.assign(objetivo, fuente);
+
+// console.log("DESPUES");
+// console.log(objetivo);
+// console.log(fuente);
+
+
+// $ Ejemplo 2:
+
+// const objetivo = { a: 1};
+// const fuente = { b: 4, c: 5 };
+
+// console.log(objetivo);
+// console.log(fuente);
+// console.log(Object.assign(objetivo, fuente));
+
+
+// $ Ejemplo 3:
+
+// const objetivo = { a: 1};
+// const fuente = { a: 2, b: 4, c: 5 };
+
+// console.log(Object.assign(objetivo, fuente));
+
+// $ Ejemplo 4:
+
+// var o1 = { a: 0, b: 0, c: 0 };
+// var o2 = { b: 7, c: 7 };
+// var o3 = { c: "♥" };
+// var o4 = { a: "🧡", d:"💚" };
+
+// console.log(Object.assign(o1, o2));
+// console.log(Object.assign(o1, o3));
+// console.log(Object.assign(o1, o4));
+
+// $ Ejemplo 5:
+
+// const objetivo = { nombre: "pedro", apellido: "jorjelinez" };
+// const fuente = { edad: 22, altura: "215 Cm" };
+
+// console.log(Object.assign(objetivo, fuente));
+
+// $ Ejemplo 6:
+
+// var obj1 = { a: 1 };
+// var obj2 = { b: 2 };
+// var obj3 = { c: 3 };
+
+
+//_Sintaxis 1: 
+// console.log(Object.assign(obj1, obj2, obj3));
+
+
+//_Sintaxis 2: 
+// console.log("ANTES");
+// console.log(obj1);
+// console.log(obj2);
+// console.log(obj3);
+
+// var objetoFinal = Object.assign(obj1, obj2, obj3);
+
+// console.log(objetoFinal);
+
+// console.log("DESPUES");
+// console.log(obj1);
+// console.log(obj2);
+// console.log(obj3);
+
+//+Comprobando la igualdad 
+// console.log(objetoFinal === obj1);
+// console.log(objetoFinal === obj2);
+// console.log(objetoFinal === obj3);
 
 //. Object values:
 //- Permite enumerar las propiedades de un objeto.
@@ -528,8 +610,6 @@ console.log(animal.saludo());
 /*
 
 
-
-
 // # HERENCIA:
 
 //. Extends:
@@ -547,7 +627,6 @@ class fisica{
 class materia extends fisica{}
 const atomo = new materia("cuantico","atemporal");
 console.log(atomo);
-
 
 
 //$ Ejemplo 2:

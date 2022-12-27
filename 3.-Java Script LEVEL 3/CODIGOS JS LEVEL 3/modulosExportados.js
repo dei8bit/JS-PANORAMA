@@ -1,7 +1,9 @@
 //# EXPORT:
-//+Permite exportar modulos JS
+//+Permite exportar modulos JS.
 
-//. Exportacion por elemento:
+//. Exportacion por elemento declarado:
+//+ Permite exportar elementos declarados en la misma línea.
+
 // export const numero = 77;
 // export const texto = "Buenas!";
 // export const arregloFrutas = ["manzana","morron","zapallo"];
@@ -9,10 +11,8 @@
 // export const funcion = () => "Que tal!";
 // export class humano { };
 
-
-
-
 //. Exportacion por variable:
+//+ Permite exportar una variable puntual.
 
 // const numero = 99;
 // const palabra1 = "improperio";
@@ -28,6 +28,7 @@
 // export { humano };
 
 //. Exportacion renombrada:
+//+ Permite renombrar una variable para ser exportada.
 
 // const numero = 99;
 // const palabra1 = "improperio";
@@ -45,6 +46,7 @@
 // export { humano as homosapie };
 
 //. Exportacion multiple:
+//+ Permite exportar un grupo de variables en un solo bloque.
 
 // const numero = 99;
 // const palabra1 = "improperio";
@@ -65,21 +67,8 @@
 //   humano
 // };
 
-//. Exportacion externa:
-
-//$ Exportar todo el contenido de un modulo externo.
-// export * from "./modulosExternos.js";
-
-//$ Exportar variables especificas de un modulo externo.
-//- Ejemplo 1:
-// export { n1,n2 } from "./modulosExternos.js";
-//- Ejemplo 2:
-// export { n1, n2 as pepe } from "./modulosExternos.js";
-
-//$ Exportar todo el contenido de un modulo externo dentro de un objeto con un nombre .
-// export * as nuevoNombre from "./modulosExternos.js";
-
 //. Exportacion por default:
+//+ Permite realizar una exportación por default que tendrá una sintaxis diferente al importarse. 
 
 //$ Ejemplo 1:
 // export default "cadena de texto exportada por default";
@@ -101,6 +90,23 @@
 
 // export default agamenon;
 
+//. Exportacion externa:
+//+ Permite exportar módulos de otro archivo JS diferente al que estamos trabajando actualmente.
+
+//$ Exportar todo el contenido de un modulo externo.
+// export * from "./modulosExternos.js";
+
+//$ Exportar variables especificas de un modulo externo.
+//- Ejemplo 1:
+// export { n1,n2 } from "./modulosExternos.js";
+//- Ejemplo 2:
+// export { n1, n2 as pepe } from "./modulosExternos.js";
+
+//$ Exportar todo el contenido de un modulo externo dentro de un objeto con un nombre .
+// export * as nuevoNombre from "./modulosExternos.js";
+
+
+
 //. Codigo para la ejecucion de una importacion total:
 // console.log("Buenas, esta es una importacion local");
 // const f1 =  ()=>{ console.log( "nosotras somos funciones");}
@@ -112,7 +118,12 @@
 // f3(2,4);
 
 //. Codigo para la ejecucion de una importacion dinamica:
-export const numero = 77;
+// export const numero = 77;
 // console.log("wenas");
-// function funcion() {console.log("Soy una funcion importada dinamicamente")};
+
+function funcion() {console.log("Soy una funcion importada dinamicamente")};
 // const w = ()=>{}
+export {funcion}
+
+
+
