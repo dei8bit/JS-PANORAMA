@@ -14,7 +14,7 @@ Ademas los resumenes cuentan con una estetica totalmente agradable que la fui pe
 
 ***TODOS LOS ARCHIVOS DE CODIGO ESTAN PARA USARLOS CON TOTAL LIBERTAD.✅
 
-Para lograr juntar toda esta informacion recurri a muchas fuentes de informacion y muchos divulgadores diferentes, finalmente di un punto de vista personal cuando era posible, y de lo contrario recurri a la docuemtnacion oficial para explicar conceptos mas abstractos solo pueden explicarse con un vocabulario mas tecnico.
+Para lograr juntar toda esta informacion recurri a muchas fuentes de informacion y muchos divulgadores diferentes, finalmente di un punto de vista personal cuando era posible, y de lo contrario recurri a la documentacion oficial para explicar conceptos mas abstractos solo pueden explicarse con un vocabulario mas tecnico.
 
 Demas esta decir, que estoy eternamente agradecido de que estos divulgadores hayan dedicado tanto esfuerzo en explicar y compartir el contenido y como lo hacen.
 Decidi dejar mi granito de arena a la comunidad de programadores con este resumen, y muy inspirado gracias a los increible autores que podran explorar y consultar en las fuentes que citare a continuacion:
